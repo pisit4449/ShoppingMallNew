@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shoppingmall/utility/my_constant.dart';
 
 class CreateAccount extends StatefulWidget {
   const CreateAccount({Key? key}) : super(key: key);
@@ -12,7 +13,8 @@ class _CreateAccountState extends State<CreateAccount> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("CreateAccount"),
+        backgroundColor: MyConstant.primary,
+        title: Text("Create New Account"),
       ),
     );
   }
