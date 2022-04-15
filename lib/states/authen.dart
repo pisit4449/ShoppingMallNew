@@ -49,7 +49,7 @@ class _AuthenState extends State<Authen> {
         TextButton(
           onPressed: () =>
               Navigator.pushNamed(context, MyConstant.routeCreateAccount),
-          child: Text("Create Account"),
+          child: Text("Create New Account"),
         ),
       ],
     );
