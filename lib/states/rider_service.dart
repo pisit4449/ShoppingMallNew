@@ -12,7 +12,7 @@ class _RiderServiceState extends State<RiderService> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Rider"),
+        title: Text("This is Rider"),
       ),
     );
   }

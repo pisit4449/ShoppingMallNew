@@ -12,7 +12,7 @@ class _BuyerServiceState extends State<BuyerService> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Buyer"),
+        title: Text("This is Buyer"),
       ),
     );
   }
